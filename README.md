@@ -1,4 +1,4 @@
-####Day 1: Data Types  
+#### Day 1: Data Types  
 **Task**   
 The variables i, d, and s are already declared and initialized for you. You must:  
 - Declare 3 variables: one of type int, one of type double, and one of type String.  
