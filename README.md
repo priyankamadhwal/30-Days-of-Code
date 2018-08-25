@@ -4,6 +4,7 @@ The variables i, d, and s are already declared and initialized for you. You must
 - Declare 3 variables: one of type int, one of type double, and one of type String.  
 - Read 3 lines of input from stdin (according to the sequence given in the Input Format section below) and initialize your 3 variables.  
 - Use the + operator to perform the following operations: 
+  
 1. Print the sum of i plus your int variable on a new line.  
 2. Print the sum of d plus your double variable to a scale of one decimal place on a new line.  
 3. Concatenate s with the string you read as input and print the result on a new line.  
@@ -23,4 +24,16 @@ The first line has a double, mealCost (the cost of the meal before tax and tip).
 The second line has an integer, tipPercent (the percentage of mealCost being added as tip).  
 The third line has an integer, taxPercent (the percentage of mealCost being added as tax).  
 **Output Format**  
- Print The total meal cost is totalCost dollars., where totalCost is the rounded integer result of the entire bill (mealCost with added tax and tip).
+ Print The total meal cost is totalCost dollars., where totalCost is the rounded integer result of the entire bill (mealCost with added tax and tip).  
+#### Day 3: Intro to Conditional Statements    
+**Task**   
+Given an integer, n, perform the following conditional actions:  
+- If n is odd, print Weird
+- If n is even and in the inclusive range of 2 to 5, print Not Weird  
+- If n is even and in the inclusive range of 6 to 20, print Weird  
+- If n is even and greater than 20, print Not Weird  
+Complete the stub code provided in your editor to print whether or not  is weird.  
+**Input Format**  
+A single line containing a positive integer, n.  
+**Output Format**  
+Print Weird if the number is weird; otherwise, print Not Weird.  
