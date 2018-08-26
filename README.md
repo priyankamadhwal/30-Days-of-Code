@@ -38,3 +38,16 @@ Complete the stub code provided in your editor to print whether or not  is weird
 A single line containing a positive integer, n.  
 **Output Format**  
 Print Weird if the number is weird; otherwise, print Not Weird.  
+#### Day 4: Class vs. Instance    
+**Task**   
+Write a Person class with an instance variable, age, and a constructor that takes an integer, initialAge, as a parameter. The constructor must assign initialAge to age after confirming the argument passed as initialAge is not negative; if a negative argument is passed as initialAge, the constructor should set age to 0 and print Age is not valid, setting age to 0.. In addition, you must write the following instance methods:  
+1. yearPasses() should increase the age instance variable by 1.   
+2. amIOld() should perform the following conditional actions:  
+- If age<13, print You are young..  
+- If age>=13 and age<18, print You are a teenager..  
+- Otherwise, print You are old..  
+  
+**Input Format**  
+The first line contains an integer, T (the number of test cases), and the T subsequent lines each contain an integer denoting the age of a Person instance.  
+**Output Format**  
+Complete the method definitions provided in the editor so they meet the specifications outlined above.   
