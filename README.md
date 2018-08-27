@@ -51,3 +51,12 @@ Write a Person class with an instance variable, age, and a constructor that take
 The first line contains an integer, T (the number of test cases), and the T subsequent lines each contain an integer denoting the age of a Person instance.  
 **Output Format**  
 Complete the method definitions provided in the editor so they meet the specifications outlined above.   
+#### Day 5: Loops    
+**Task**   
+Given an integern, , print its first 10 multiples. Each multiple n x i (where 1<=i<=10) should be printed on a new line in the form: 
+n x i = result.  
+**Input Format**  
+A single integer, n.  
+**Output Format**  
+Print 10 lines of output; each line i (where 1<=i<=10) contains the result of n x i in the form: 
+n x i = result.
