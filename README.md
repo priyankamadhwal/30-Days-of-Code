@@ -68,4 +68,12 @@ Given a string, S, of length N that is indexed from 0 to N-1, print its even-ind
 The first line contains an integer, T (the number of test cases).  
 Each line i of the T subsequent lines contain a String, S.  
 **Output Format**  
-For each String Sj (where 0<=j<=T-1), print Sj's even-indexed characters, followed by a space, followed by Sj's odd-indexed characters.  
+For each String Sj (where 0<=j<=T-1), print Sj's even-indexed characters, followed by a space, followed by Sj's odd-indexed characters. 
+#### Day 7: Arrays    
+**Task**   
+Given an array, A, of N integers, print A's elements in reverse order as a single line of space-separated numbers.    
+**Input Format**   
+The first line contains an integer, N (the size of our array).  
+The second line contains N space-separated integers describing array A's elements.  
+**Output Format**    
+Print the elements of array A in reverse order as a single line of space-separated numbers.   
