@@ -87,4 +87,19 @@ Each of the n subsequent lines describes an entry in the form of 2 space-separat
 After the n lines of phone book entries, there are an unknown number of lines of queries. Each line (query) contains a name to look up, and you must continue reading lines until there is no more input.  
 **Note:** Names consist of lowercase English alphabetic letters and are first names only.  
 **Output Format**    
-On a new line for each query, print Not found if the name has no corresponding entry in the phone book; otherwise, print the full name and phoneNumber in the format name=phoneNumber.
+On a new line for each query, print Not found if the name has no corresponding entry in the phone book; otherwise, print the full name and phoneNumber in the format name=phoneNumber.  
+#### Day 9: Recursion 3      
+**Task**     
+Write a factorial function that takes a positive integer, N as a parameter and prints the result of N! (N factorial).  
+**Note:** If you fail to use recursion or fail to name your recursive function factorial or Factorial, you will get a score of 0.  
+**Input Format**   
+A single integer, N (the argument to pass to factorial).  
+**Output Format**     
+Print a single integer denoting N!.  
+#### Day 10: Binary Numbers     
+**Task**     
+Given a base-10 integer, n, convert it to binary (base-2). Then find and print the base-10 integer denoting the maximum number of consecutive 1's in n's binary representation.  
+**Input Format**   
+A single integer, n.  
+**Output Format**     
+Print a single base-10 integer denoting the maximum number of consecutive 1's in the binary representation of n.  
