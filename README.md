@@ -103,4 +103,52 @@ Given a base-10 integer, n, convert it to binary (base-2). Then find and print t
 A single integer, n.  
 **Output Format**     
 Print a single base-10 integer denoting the maximum number of consecutive 1's in the binary representation of n.  
-
+#### Day 11: 2D Arrays       
+**Task**     
+Calculate the hourglass sum for every hourglass in A, then print the maximum hourglass sum.   
+For example, Given a 6x6 2D Array, A:  
+<pre>
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+</pre>  
+We define an hourglass in A to be a subset of values with indices falling in this pattern in A's graphical representation:  
+<pre>
+a b c
+  d
+e f g
+</pre>  
+There are 16 hourglasses in A, and an hourglass sum is the sum of an hourglass' values.  
+**Input Format**   
+There are 6 lines of input, where each line contains 6 space-separated integers describing 2D Array A; every value in A will be in the inclusive range of -9 to 9.   
+**Output Format**     
+Print the largest (maximum) hourglass sum found in A.   
+#### Day 12: Inheritance       
+**Task**     
+You are given two classes, Person and Student, where Person is the base class and Student is the derived class. Completed code for Person and a declaration for Student are provided for you in the editor. Observe that Student inherits all the properties of Person.  
+Complete the Student class by writing the following:  
+- A Student class constructor, which has 4 parameters:
+1. A string, firstName.
+2. A string, lastName.
+3. An integer, id.
+4. An integer array (or vector) of test scores, scores.
+- A char calculate() method that calculates a Student object's average and returns the grade character representative of their calculated average:  
+<pre>
+Grading Scale:
+Letter    Average(a)
+O         90<=a<=100
+E         80<=a<90
+A         70<=a<80
+P         55<=a<70
+D         40<=a<55
+T         a<40
+</pre>  
+**Input Format**   
+The locked stub code in your editor calls your Student class constructor and passes it the necessary arguments. It also calls the calculate method (which takes no arguments).  
+You are not responsible for reading the following input from stdin:  
+The first line contains firstName, lastName, and id, respectively. The second line contains the number of test scores. The third line of space-separated integers describes scores.  
+**Output Format**     
+This is handled by the locked stub code in your editor. Your output will be correct if your Student class constructor and calculate() method are properly implemented.  
