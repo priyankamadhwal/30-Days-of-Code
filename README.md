@@ -7,7 +7,8 @@ The variables i, d, and s are already declared and initialized for you. You must
   
 1. Print the sum of i plus your int variable on a new line.  
 2. Print the sum of d plus your double variable to a scale of one decimal place on a new line.  
-3. Concatenate s with the string you read as input and print the result on a new line.  
+3. Concatenate s with the string you read as input and print the result on a new line.   
+  
 **Input Format**  
 The first line contains an integer that you must sum with i. 
 The second line contains a double that you must sum with d. 
@@ -165,6 +166,7 @@ Given a Book class and a Solution class, write a MyBook class that does the foll
 1. Title:, a space, and then the current instance's title.  
 2. Author:, a space, and then the current instance's author.  
 3. Price:, a space, and then the current instance's price.  
+  
 **Note:** Because these classes are being written in the same file, you must not use an access modifier (e.g.: public) when declaring MyBook or your code will not execute.  
 **Input Format**   
 You are not responsible for reading any input from stdin. The Solution class creates a Book object and calls the MyBook class constructor (passing it the necessary arguments). It then calls the display method on the Book object.  
@@ -181,6 +183,7 @@ Price: $price
 Complete the Difference class by writing the following:  
 - A class constructor that takes an array of integers as a parameter and saves it to the elements instance variable.  
 - A computeDifference method that finds the maximum absolute difference between any 2 numbers in elements and stores it in the maximumDifference instance variable.  
+  
 **Input Format**   
 You are not responsible for reading any input from stdin. The locked Solution class in your editor reads in 2 lines of input; the first line contains N, and the second line describes the elements array.  
 **Output Format**     
