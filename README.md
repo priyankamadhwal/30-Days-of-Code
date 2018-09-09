@@ -203,15 +203,14 @@ Read a string, S, and print its integer value; if S cannot be converted to an in
 A single string, S.  
 **Output Format**     
 Print the parsed integer value of S, or Bad String if S cannot be converted to an integer.   
-#### Day 17: Exceptions - String to Integer     
+#### Day 17: More Exceptions     
 **Task**     
-Read a string, S, and print its integer value; if S cannot be converted to an integer, print Bad String.  
-**Note:** You must use the String-to-Integer and exception handling constructs built into your submission language. If you attempt to use loops/conditional statements, you will get a 0 score.  
+Write a Calculator class with a single method: int power(int,int). The power method takes two integers, n and p, as parameters and returns the integer result of n^p. If either n or p is negative, then the method must throw an exception with the message: n and p should be non-negative.  
+**Note:** Do not use an access modifier (e.g.: public) in the declaration for your Calculator class.  
 **Input Format**   
-A single string, S.  
+Input from stdin is handled for you by the locked stub code in your editor. The first line contains an integer, T, the number of test cases. Each of the T subsequent lines describes a test case in 2 space-separated integers denoting n and p, respectively.    
 **Output Format**     
-Print the parsed integer value of S, or Bad String if S cannot be converted to an integer.   
-
+Output to stdout is handled for you by the locked stub code in your editor. There are T lines of output, where each line contains the result of n^p as calculated by your Calculator class' power method.  
 #### Day 18: Queues and Stacks      
 **Task**     
 A palindrome is a word, phrase, number, or other sequence of characters which reads the same backwards and forwards. Can you determine if a given string, s, is a palindrome?  
