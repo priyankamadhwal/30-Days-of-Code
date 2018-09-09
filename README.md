@@ -151,4 +151,79 @@ The locked stub code in your editor calls your Student class constructor and pas
 You are not responsible for reading the following input from stdin:  
 The first line contains firstName, lastName, and id, respectively. The second line contains the number of test scores. The third line of space-separated integers describes scores.  
 **Output Format**     
-This is handled by the locked stub code in your editor. Your output will be correct if your Student class constructor and calculate() method are properly implemented.  
+This is handled by the locked stub code in your editor. Your output will be correct if your Student class constructor and calculate() method are properly implemented.   
+#### Day 13: Abstract Classes       
+**Task**     
+Given a Book class and a Solution class, write a MyBook class that does the following:  
+- Inherits from Book  
+- Has a parameterized constructor taking these 3 parameters:  
+1. string title  
+2. string author  
+3. int price  
+  
+- Implements the Book class' abstract display() method so it prints these 3 lines:  
+1. Title:, a space, and then the current instance's title.  
+2. Author:, a space, and then the current instance's author.  
+3. Price:, a space, and then the current instance's price.  
+**Note:** Because these classes are being written in the same file, you must not use an access modifier (e.g.: public) when declaring MyBook or your code will not execute.  
+**Input Format**   
+You are not responsible for reading any input from stdin. The Solution class creates a Book object and calls the MyBook class constructor (passing it the necessary arguments). It then calls the display method on the Book object.  
+**Output Format**     
+The void display() method should print and label the respective title, author, and price of the MyBook object's instance (with each value on its own line) like so:  
+<pre>
+Title: $title
+Author: $author
+Price: $price
+</pre>  
+**Note:** The $ is prepended to variable names to indicate they are placeholders for variables.  
+#### Day 14: Scope     
+**Task**     
+Complete the Difference class by writing the following:  
+- A class constructor that takes an array of integers as a parameter and saves it to the elements instance variable.  
+- A computeDifference method that finds the maximum absolute difference between any 2 numbers in elements and stores it in the maximumDifference instance variable.  
+**Input Format**   
+You are not responsible for reading any input from stdin. The locked Solution class in your editor reads in 2 lines of input; the first line contains N, and the second line describes the elements array.  
+**Output Format**     
+You are not responsible for printing any output; the Solution class will print the value of the maximumDifference instance variable.  
+#### Day 15: Linked List     
+**Task**     
+Complete the insert function in your editor so that it creates a new Node (pass data as the Node constructor argument) and inserts it at the tail of the linked list referenced by the head parameter. Once the new node is added, return the reference to the head node.  
+**Note:** If the head argument passed to the insert function is null, then the initial list is empty.  
+**Input Format**   
+The insert function has 2 parameters: a pointer to a Node named head, and an integer value, data.  
+The constructor for Node has 1 parameter: an integer value for the data field.  
+You do not need to read anything from stdin.  
+**Output Format**     
+Your insert function should return a reference to the head node of the linked list.   
+#### Day 16: Exceptions - String to Integer     
+**Task**     
+Read a string, S, and print its integer value; if S cannot be converted to an integer, print Bad String.  
+**Note:** You must use the String-to-Integer and exception handling constructs built into your submission language. If you attempt to use loops/conditional statements, you will get a 0 score.  
+**Input Format**   
+A single string, S.  
+**Output Format**     
+Print the parsed integer value of S, or Bad String if S cannot be converted to an integer.   
+#### Day 17: Exceptions - String to Integer     
+**Task**     
+Read a string, S, and print its integer value; if S cannot be converted to an integer, print Bad String.  
+**Note:** You must use the String-to-Integer and exception handling constructs built into your submission language. If you attempt to use loops/conditional statements, you will get a 0 score.  
+**Input Format**   
+A single string, S.  
+**Output Format**     
+Print the parsed integer value of S, or Bad String if S cannot be converted to an integer.   
+
+#### Day 18: Queues and Stacks      
+**Task**     
+A palindrome is a word, phrase, number, or other sequence of characters which reads the same backwards and forwards. Can you determine if a given string, s, is a palindrome?  
+To solve this challenge, we must first take each character in s, enqueue it in a queue, and also push that same character onto a stack. Once that's done, we must dequeue the first character from the queue and pop the top character off the stack, then compare the two characters to see if they are the same; as long as the characters match, we continue dequeueing, popping, and comparing each character until our containers are empty (a non-match means s isn't a palindrome).  
+Write the following declarations and implementations:  
+1. Two instance variables: one for your stack, and one for your queue.  
+2. A void pushCharacter(char ch) method that pushes a character onto a stack.  
+3. A void enqueueCharacter(char ch) method that enqueues a character in the queue instance variable.  
+4. A char popCharacter() method that pops and returns the character at the top of the stack instance variable.  
+5 A char dequeueCharacter() method that dequeues and returns the first character in the queue instance variable.  
+**Input Format**   
+You do not need to read anything from stdin. The locked stub code in your editor reads a single line containing string s. It then calls the methods specified above to pass each character to your instance variables.   
+**Output Format**     
+You are not responsible for printing any output to stdout.   
+If your code is correctly written and s is a palindrome, the locked stub code will print- The word, s, is a palindrome.; otherwise, it will print- The word, s, is not a palindrome.  
