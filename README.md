@@ -237,4 +237,28 @@ Complete the implementation of Calculator class, which implements the AdvancedAr
 **Input Format**   
 A single line containing an integer, n.    
 **Output Format**     
-You are not responsible for printing anything to stdout. The locked template code in the editor below will call your code and print the necessary output.  
+You are not responsible for printing anything to stdout. The locked template code in the editor below will call your code and print the necessary output.   
+#### Day 20: Sorting      
+**Task**     
+Given an array, a, of size n distinct elements, sort the array in ascending order using the Bubble Sort algorithm above. Once sorted, print the following 3 lines:  
+1. Array is sorted in numSwaps swaps, where numSwaps is the number of swaps that took place.  
+2. First Element: firstElement, where firstElement is the first element in the sorted array.  
+3. Last Element: lastElement, where lastElement is the last element in the sorted array.  
+  
+**Hint:** To complete this challenge, you will need to add a variable that keeps a running tally of all swaps that occur during execution.  
+**Input Format**   
+The first line contains an integer, n, denoting the number of elements in array a.   
+The second line contains n space-separated integers describing the respective values of a0, a1,..., an-1.  
+**Output Format**     
+Print the following three lines of output:  
+1. Array is sorted in numSwaps swaps, where numSwaps is the number of swaps that took place.  
+2. First Element: firstElement, where firstElement is the first element in the sorted array.  
+3. Last Element: lastElement, where lastElement is the last element in the sorted array.  
+#### Day 21: Generics      
+**Task**     
+Write a single generic function named printArray; this function must take an array of generic elements as a parameter (the exception to this is C++, which takes a vector). The locked Solution class in your editor tests your function.  
+**Note:** You must use generics to solve this challenge. Do not write overloaded functions.  
+**Input Format**   
+The locked Solution class in your editor will pass different types of arrays to your printArray function.  
+**Output Format**     
+Your printArray function should print each element of its generic array parameter on a new line.  
