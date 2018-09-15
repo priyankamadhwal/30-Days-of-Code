@@ -273,11 +273,23 @@ Each of the n subsequent lines contains an integer, data, denoting the value of 
 The locked stub code in your editor will print the integer returned by your getHeight function denoting the height of the BST.  
 #### Day 23: BST Level-Order Traversal      
 **Task**     
-A level-order traversal, also known as a breadth-first search, visits each level of a tree's nodes from left to right, top to bottom. You are given a pointer, root, pointing to the root of a binary search tree. Complete the levelOrder function provided in your editor so that it prints the level-order traversal of the binary search tree.  
-**Hint:** You'll find a queue helpful in completing this challenge.  
+A level-order traversal, also known as a breadth-first search, visits each level of a tree's nodes from left to right, top to bottom. You are given a pointer, root, pointing to the root of a binary search tree. Complete the levelOrder function provided in your editor so that it prints the level-order traversal of the binary search tree.   
+**Hint:** You'll find a queue helpful in completing this challenge.   
 **Input Format**   
-The locked stub code in your editor reads the following inputs and assembles them into a BST: 
-The first line contains an integer, T (the number of test cases). 
-The T subsequent lines each contain an integer, data, denoting the value of an element that must be added to the BST.
+The locked stub code in your editor reads the following inputs and assembles them into a BST:   
+The first line contains an integer, T (the number of test cases).   
+The T subsequent lines each contain an integer, data, denoting the value of an element that must be added to the BST.  
 **Output Format**     
-Print the data value of each node in the tree's level-order traversal as a single line of N space-separated integers.
+Print the data value of each node in the tree's level-order traversal as a single line of N space-separated integers.  
+#### Day 24: More Linked Lists      
+**Task**     
+A Node class is provided for you in the editor. A Node object has an integer data field, data, and a Node instance pointer, next, pointing to another node (i.e.: the next node in a list).  
+A removeDuplicates function is declared in your editor, which takes a pointer to the head node of a linked list as a parameter. Complete removeDuplicates so that it deletes any duplicate nodes from the list and returns the head of the updated list.  
+**Note:** The head pointer may be null, indicating that the list is empty. Be sure to reset your next pointer when performing deletions to avoid breaking the list.  
+**Input Format**   
+You do not need to read any input from stdin. The following input is handled by the locked stub code and passed to the removeDuplicates function:   
+The first line contains an integer, N, the number of nodes to be inserted.   
+The N subsequent lines each contain an integer describing the data value of a node being inserted at the list's tail.  
+The data elements of the linked list argument will always be in non-decreasing order.  
+**Output Format**     
+Your removeDuplicates function should return the head of the updated linked list. The locked stub code in your editor will print the returned list to stdout.  
